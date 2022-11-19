@@ -60,7 +60,7 @@ export const Chatbot = styled.div`
     @media (max-width: 900px) {
         margin: 0 auto;
         margin-top: 20px;
-        width: 100%;
+        width: 80%;
     }
 `
 

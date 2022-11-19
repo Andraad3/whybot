@@ -1,6 +1,5 @@
 import { Button } from "@mui/material";
 import { Header } from "../../components/Header/Header";
-import { Footer } from "../../components/Footer/Footer";
 import { Chatbot, InfoEvento, Perguntas, RefazerPergunta, Resposta, W100 } from "./style";
 
 export function EventoDescricao() {
@@ -36,7 +35,6 @@ export function EventoDescricao() {
                     </Chatbot>
                 </W100>
             </div>
-            {/* <Footer /> */}
         </>
     )
 }
