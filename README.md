@@ -21,9 +21,9 @@ O whybot está sendo desenvolvido com react e escolhemos trabalhar com a arquite
 
 
 ## Como Instalar?
--**Primeiramente deverá baixar o programa;
--**Executar o comando NPM i ou yarn i;
--**Executar o comando npm run dev ou yarn 
+- **Primeiramente deverá baixar o programa;**
+- **Executar o comando NPM i ou yarn i;**
+- **Executar o comando npm run dev ou yarn** 
 
 
 
