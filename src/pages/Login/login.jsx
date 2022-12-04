@@ -35,7 +35,7 @@ export function Login() {
             <h1 style={{ color: '#5972A3' }}>Login</h1>
             <form onSubmit={handleSubmit(Login)} className={style.divCamposLogin}>
                 <TextField fullWidth variant='outlined' {...register('email')} label='Email' size="small" type='email' />
-                <TextField fullWidth variant='outlined' {...register('password')} label='Senha' size="small" />
+                <TextField fullWidth variant='outlined' {...register('password')} label='Senha' size="small" type='password' />
                 <button type="submit" className={style.buttonLogin}>Entrar</button>
                 <Link to={'/cadastro'}><button type="button" className={style.buttonLogin}>Criar conta</button></Link>
             </form>
