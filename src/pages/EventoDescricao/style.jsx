@@ -30,10 +30,6 @@ export const InfoEvento = styled.div`
         p {
             width: 80%;
             margin: 0 auto;
-
-            @media (max-width: 900px) {
-                width: 100%;
-            }
         }
     }
 
@@ -67,8 +63,9 @@ export const Chatbot = styled.div`
 export const Perguntas = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    width: 50%;
+    width: 100%;
 `
 
 export const Resposta = styled.div`
